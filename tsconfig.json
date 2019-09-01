@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "esnext",
+        "target": "esnext",
+        "outDir": "lib",
+        "lib": [
+            "esnext",
+            "webworker",
+        ],
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "declaration": true,
+    },
+    "include": [
+        "src/**/*",
+    ],
+}
