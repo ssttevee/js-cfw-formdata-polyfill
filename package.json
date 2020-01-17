@@ -1,7 +1,7 @@
 {
   "name": "@ssttevee/cfw-formdata-polyfill",
   "type": "module",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A polyfill for Request.prototype.formData on cloudflare workers",
   "main": "index.js",
   "files": [
