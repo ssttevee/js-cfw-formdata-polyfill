@@ -10,12 +10,5 @@ module.exports = {
     plugins: [
         /* remove this */ { resolveId: (source) => source === '@ssttevee/cfw-formdata-polyfill' ? { id: require.resolve('../../index.js') } : undefined },
         resolve(),
-        inject({
-            modules: {
-                Blob: '@ssttevee/blob-ponyfill/blob',
-                File: '@ssttevee/blob-ponyfill/file',
-                FileReaderSync: '@ssttevee/blob-ponyfill/filereadersync',
-            },
-        }),
     ],
 };
