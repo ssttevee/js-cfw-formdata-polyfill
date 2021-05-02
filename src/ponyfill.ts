@@ -1,5 +1,3 @@
-import Blob from '@ssttevee/blob-ponyfill/blob';
-import FormData from '@ssttevee/formdata-ponyfill';
 import { parseMultipart } from '@ssttevee/multipart-parser';
 import { arrayToString } from '@ssttevee/u8-utils';
 
